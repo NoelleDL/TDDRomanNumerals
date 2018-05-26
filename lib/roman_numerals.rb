@@ -1,4 +1,9 @@
 def convert(num)
-  return "X" if num == 10
-  "I"
+  if num == 1
+    "I"
+  elsif num == 10
+    "X"
+  else
+    "C"
+  end
 end
