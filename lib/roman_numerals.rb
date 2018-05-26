@@ -1,9 +1,4 @@
 def convert(num)
-  if num == 1
-    "I"
-  elsif num == 10
-    "X"
-  else
-    "C"
-  end
+  roman_numerals = { 1 => "I", 10 => "X", 100 => "C" }
+  roman_numerals[num]
 end
