@@ -12,4 +12,8 @@ describe '#convert' do
   it "returns 'C' when given 100" do
     expect(convert(100)).to eq 'C'
   end
+
+  it "returns 'II' when given 2" do
+    expect(convert(2)).to eq 'II'
+  end 
 end
