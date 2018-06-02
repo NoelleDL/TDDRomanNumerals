@@ -19,5 +19,9 @@ describe '#convert' do
 
   it "returns 'L' when given 50" do
     expect(convert(50)).to eq 'L'
-  end 
+  end
+
+  it "returns 'D' when given 500" do
+    expect(convert(500)).to eq 'D'
+  end
 end
